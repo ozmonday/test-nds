@@ -6,10 +6,11 @@ import (
 )
 
 func main() {
-	fmt.Println(Solusi(4))
+	fmt.Println(Solution(4))
 }
 
-func Solusi(tinggi int) string {
+// soal 1
+func Solution(tinggi int) string {
 	current := float32(tinggi)
 	var result []string
 
@@ -23,3 +24,5 @@ func Solusi(tinggi int) string {
 	}
 	return strings.Join(result, " ")
 }
+
+//soal 2
